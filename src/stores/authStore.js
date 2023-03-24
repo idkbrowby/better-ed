@@ -1,9 +1,9 @@
 import { async } from "@firebase/util";
-import { writeable } from "svelte/store";
+import { writable } from "svelte/store";
 import {createUserWithEmailAndPassword, sendPasswordResetEmail, signOut, updatePassword,} from "firebase/auth";
 import { auth } from "../lib/firebase/firebase.client";
 
-export const authStore = writeable({
+export const authStore = writable({
     isLoading:true,
     currentUser:null
 })
