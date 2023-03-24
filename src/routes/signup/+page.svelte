@@ -106,8 +106,6 @@
 				{/if}
 				<p class="py-2">Already a User? <a class="" href="/login">Login Here</a>
 				</p>
-				{email}{pass}
-				
 			</form>
 		</div>
 	</div>
