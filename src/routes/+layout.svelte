@@ -1,2 +1,5 @@
-// Import our global CSS
-import "$lib/global.css";
+<script>
+    import "$lib/app.css";
+</script>
+
+<slot/>
