@@ -2,10 +2,12 @@
     let pass;
     let confpass;
     let agreedTnC=false;
+	import Basicnavbar from "../../lib/components/basicnavbar.svelte";
 </script>
-<div data-theme="night" class="min-h-screen  flex p-12 justify-center">
+<Basicnavbar/>
+<div data-theme="night" class="min-h-screen  flex px-12 pb-12 justify-center">
 	<div class="flex items-center justify-center">
-		<div class=" h-full p-10 w-full rounded-xl rounded-l-2xl flex-col justify-center">
+		<div class=" h-full px-10 w-full rounded-xl rounded-l-2xl flex-col justify-center">
 			<h1
 				class="py-10 basis-1/6 text-5xl   font-extrabold text-start  "
 			>

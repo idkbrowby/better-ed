@@ -21,7 +21,7 @@
                   <h2 class="card-title">Project-1</h2>
                   <p>If a dog chews shoes whose shoes does he choose?</p>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Try Now</button>
+                    <a  href="/prokecy"><button class="btn btn-primary">Try Now</button></a>
                   </div>
                 </div>
               </div>
