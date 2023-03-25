@@ -15,17 +15,6 @@
 
 <div class="flex flex-col min-w-full">
     <div class="flex justify-center py-10">
-        <!-- <ul class="steps steps-vertical">  
-            {#each steps as step}
-                {#if step === id}
-                    <li class="step step-primary">{step}</li>
-                {:else if step < id}
-                    <li class="step step-secondary">{step}</li>
-                {:else}
-                    <li class="step">{step}</li>
-                {/if}
-            {/each}
-        </ul> -->
         <ul class="steps ">
             {#each steps as step}
                 {#if step < id}
@@ -41,9 +30,9 @@
             <h1 class="text-3xl font-extrabold">{title}</h1>
             <p>{description}</p>
         </div>
-        <div class="w-1/3 min-h-40 border-2 border-white pb-10 ">
+        <div class="w-1/3 min-h-40 border-2 border-white ">
         <CodeMirror bind:value={code} lang={python()} theme={oneDark} />
-        
+        <button class="btn btn-block">Submit</button>
     </div>
     </div>
 </div>

@@ -2,7 +2,6 @@
     import Navbar from "$lib/components/navbar.svelte";
     import Problem from "$lib/components/problem.svelte";
     let description = "Wow what an epic and succesfully functioning project 10/10"
-    import Footer from "../../../../lib/components/footer.svelte";
 </script>
 
 <div class="min-h-full">
