@@ -9,22 +9,9 @@
 			<h1
 				class="py-10 basis-1/6 text-5xl   font-extrabold text-start  "
 			>
-				Signup
+				Login
 			</h1>
 			<form method="POST">
-				<div class="py-2">
-					<label for="Emailid" class="block mb-2 text-sm font-medium   "
-						>Email Id</label
-					>
-					<input
-						type="text"
-						name="email"
-						id="Emailid"
-						class=" border   text-sm rounded-lg  block w-full p-2.5 "
-						placeholder="abcd@xyz.com"
-						required
-					/>
-				</div>
 				<div class="py-2">
 					<label for="username" class="block mb-2 text-sm font-medium    "
 						>Username</label
@@ -52,53 +39,27 @@
 						placeholder="Password"
 						required
 					/>
-				</div>
-				<div class="py-2">
-					<label for="password" class="block mb-2 text-sm font-medium    "
-						>Confirm Password</label
-					>
-					<input
-						type="password"
-						id="password"
-						class=" border     text-sm rounded-lg     block w-full p-2.5 "
-						bind:value={confpass}
-						placeholder="Password"
-						required
-					/>
-				</div>
+                </div>
 
 				<div class="flex items-start mb-6 pt-4">
 					<div class="flex items-center h-5">
-						<input id="remember" type="checkbox" class="checkbox checkbox-secondary" bind:checked={agreedTnC} />
+                        <input type="checkbox" checked="checked" class="checkbox checkbox-secondary" />
 					</div>
 					<label
 						for="remember"
 						class="ml-2 text-sm   font-medium"
-						>I agree with the <a
-							href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-							class=" hover:underline">terms and conditions</a
-						>.</label
+						><h1
+							
+							class=" hover:underline">Remember Me</h1
+						></label
 					>
 				</div>
-				{#if pass != confpass}
-					<div class="pb-2">
-						<h1 class="text-mono font-semibold">Passwords Do Not Match!!</h1>
-					</div>
-					<button
+				<button
 						type="submit"
-						disabled
-						class="  btn"
-						>Submit</button
-					>
-				{:else}
-					<button
-						type="submit"
-						disabled={!agreedTnC}
 						class="btn "
 						>Submit</button
 					>
-				{/if}
-				<p class="py-2">Already a User? <a class="" href="/login">Login Here</a>
+				<p class="py-2">Not a User ? <a class="pl-1" href="/signup"> Sign Up Here </a>
 				</p>
 			</form>
 		</div>
