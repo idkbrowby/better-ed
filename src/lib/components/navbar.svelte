@@ -4,18 +4,18 @@
 	let menuactive = false;
 	let signedin = $page.data.user != null;
 	let username = $page.data.user ? $page.data.user.user.username : null;
-  let darkmode = true;
-  export let theme:string;
-  
-  function themeSwitcher(){
-    darkmode =! darkmode;
-    if (darkmode==true){
-      theme="night";
-    }
-    else{
-      theme="pastel";
-    }
-  }
+	let darkmode = true;
+	export let theme:string;
+	
+	function themeSwitcher(){
+		darkmode =! darkmode;
+		// if (darkmode==true){
+		// 	document.documentElement.setAttribute("data-theme", "night")//set theme to light
+		// }
+		// else{
+		// 	document.documentElement.setAttribute("data-theme", "pastel")//set theme to light
+		// }
+	}
   
 
 

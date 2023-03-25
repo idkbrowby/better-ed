@@ -3,7 +3,7 @@
     import Navbar from "../../lib/components/navbar.svelte";
     import Footer from  "../../lib/components/footer.svelte";
 </script>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
               </div>
         </div> 
     
-        <div class="grid m-2 flex-grow h-200 card bg-base-300 rounded-box place-items-center">
+        <div class="grid m-4 flex-grow h-200 card bg-base-300 rounded-box place-items-center p-8">
             <div class="card w-50 bg-base-65 shadow-xl">
                 <figure><img src="https://cdn-icons-png.flaticon.com/512/643/643283.png?w=740&t=st=1679717052~exp=1679717652~hmac=db05d58adb1e77198d4657b8c269713699d5b20ba139552a26e3f373318c8ce1" alt="Pyhton Project" /></figure>
                 <div class="card-body">
@@ -39,7 +39,7 @@
                 </div>
               </div>
         </div>
-        <div class="grid flex-grow h-200 card bg-base-300 rounded-box place-items-center">
+        <div class="grid flex-grow h-200 card bg-base-300 rounded-box place-items-center p-8">
             <div class="card w-50 bg-base-65 shadow-xl">
                 <figure><img src="https://img.freepik.com/free-icon/snakes_318-368381.jpg" alt="Pyhton Project" /></figure>
                 <div class="card-body">

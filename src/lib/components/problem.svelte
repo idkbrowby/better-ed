@@ -14,7 +14,7 @@
 </script>
 
 <div class="flex flex-col min-w-full">
-    <div class="flex justify-center">
+    <div class="flex justify-center py-10">
         <!-- <ul class="steps steps-vertical">  
             {#each steps as step}
                 {#if step === id}
@@ -26,7 +26,7 @@
                 {/if}
             {/each}
         </ul> -->
-        <ul class="steps">
+        <ul class="steps ">
             {#each steps as step}
                 {#if step < id}
                     <li class="step step-primary"></li>
@@ -36,13 +36,15 @@
             {/each}
           </ul>
     </div>
-    <div class="flex  py-2 justify-evenly align-middle">
+    <div class="flex  justify-evenly align-middle py-10 ">
         <div class="flex flex-col">
             <h1 class="text-3xl font-extrabold">{title}</h1>
             <p>{description}</p>
         </div>
-
-        <CodeMirror bind:value={code} lang={python()} theme={oneDark} class="w-1/3"/>
+        <div class="w-1/3 min-h-40 border-2 border-white pb-10 ">
+        <CodeMirror bind:value={code} lang={python()} theme={oneDark} />
+        
+    </div>
     </div>
 </div>
 
