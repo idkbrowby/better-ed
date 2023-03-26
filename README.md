@@ -1,20 +1,33 @@
-# create-svelte
+<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Introduction
+One of the goals of sustainable development is quality education. With our project, we aim to establish quality education in the software development domain. We intend to do that by taking the user step by step through a project. Each project is split into milestones, with each milestone building up on the concept of the previous milestone.
 
-## Creating a project
+# Demo Video Link:
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Presentation link:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# Technology stack:
+## Frontend
+- Svelte
+- Tailwind CSS
 
-## Developing
+## Backend ( https://github.com/idkbrowby/better-ed-backend )
+- Python
+- FastAPI
+- PostgreSQL
+- Prisma ORM
+
+# Contributors:
+Team name: idkbrowby
+- [Anand Krishna](https://github.com/anand2312)
+- [Gautham Krishna](https://github.com/Gautham-kj)
+- [Vivek Ashokkumar](github.com/vivekashok1221)
+- [Noel Binoy][github.com/noelzak03/]
+
+
+# Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
