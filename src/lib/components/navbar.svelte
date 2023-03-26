@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { page } from "$app/stores";
 	let menuactive = false;
-	let signedin =  true;
-	let username =  "null";
+	let signedin =  $page.data.user  != null;
+	let username =  $page.data.user ? $page.data.user.user.username : null;
 	let darkmode = true;
 	export let theme:string;
 	
@@ -115,7 +115,7 @@
 						class=" px-2 pt-4 flex justify-between  font-semibold"
 					>
 						<button class="w-full"
-							><a href="/login" class="font-mono bold flex justify-between items-center"
+							><a href="/login" class="font-mono bold flex justify-end items-center"
 								>Login <svg
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"

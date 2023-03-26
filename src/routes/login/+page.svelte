@@ -59,7 +59,6 @@
 				<button
 						type="submit"
 						class="btn "
-						formaction="?/register"
 						>Submit</button
 					>
 				<p class="py-2">Not a User ? <a class="pl-1" href="/signup"> Sign Up Here </a>

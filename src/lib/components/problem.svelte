@@ -9,7 +9,26 @@
     // export let sampleCases;
     export let totalMilestones;
 
-    let code = `"""\nWelcome to the BetterEd Editor!\nWrite your solution in Python 3 here.\n"""`
+    let code = `import os
+import subprocess
+
+def main():
+    if os.sys.argv[1] == "run":
+        run()
+    else:
+        print("Invalid command.")
+
+def run():
+    cmd = subprocess.Popen(os.sys.argv[2:], stdout=subprocess.PIPE)
+    output, error = cmd.communicate()
+    if error:
+        print(error.decode())
+    else:
+        print(output.decode())
+
+if __name__ == "__main__":
+    main()
+    `
     let steps = [...Array(totalMilestones).keys()];
 </script>
 
@@ -25,14 +44,17 @@
             {/each}
           </ul>
     </div>
-    <div class="flex  justify-evenly align-middle py-10 ">
-        <div class="flex flex-col">
-            <h1 class="text-3xl font-extrabold">{title}</h1>
-            <p>{description}</p>
+    <div class="flex  justify-evenly align-middle py-10">
+        <div class="flex flex-col w-1/3 ">
+          <h1 class="font-bold text-5xl"> {title}</h1>
+          <p class="my-10 text-xl">
+            {@html description}
+          </p>
+
         </div>
-        <div class="w-1/3 min-h-40 border-2 border-white ">
+        <div class="w-1/3 min-h-40  ">
         <CodeMirror bind:value={code} lang={python()} theme={oneDark} />
-        <button class="btn btn-block">Submit</button>
+        <button class="btn btn-block bottom-0">Submit</button>
     </div>
     </div>
 </div>
