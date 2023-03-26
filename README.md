@@ -7,7 +7,7 @@ This repository houses the frontend of our project.
 One of the goals of sustainable development is quality education. With our project, we aim to establish quality education in the software development domain. We intend to do that by taking the user step by step through a project. Each project is split into milestones, with each milestone building up on the concept of the previous milestone.
 
 # Demo Video Link:
-
+https://youtu.be/7raX-dNb0x0
 # Presentation link:
 https://www.canva.com/design/DAFePzWpVoc/P-RrKIlwdphvzMUGDSMyBA/edit?utm_content=DAFePzWpVoc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
