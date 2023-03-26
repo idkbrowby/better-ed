@@ -1,28 +1,32 @@
 <a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
 
+# BetterEd
+![Site](https://github.com/idkbrowby/better-ed/blob/main/static/demo.gif?raw=true)
+
+
 Accessible and accelerated learning by projects.
 
 This repository houses the frontend of our project.
-# Introduction
+## Introduction
 One of the goals of sustainable development is quality education. With our project, we aim to establish quality education in the software development domain. We intend to do that by taking the user step by step through a project. Each project is split into milestones, with each milestone building up on the concept of the previous milestone.
 
-# Demo Video Link:
+## Demo Video Link:
 https://youtu.be/7raX-dNb0x0
 # Presentation link:
 https://www.canva.com/design/DAFePzWpVoc/P-RrKIlwdphvzMUGDSMyBA/edit?utm_content=DAFePzWpVoc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-# Technology stack:
-## Frontend
+## Technology stack:
+### Frontend
 - Svelte
 - Tailwind CSS
 
-## Backend ( https://github.com/idkbrowby/better-ed-backend )
+### Backend ( https://github.com/idkbrowby/better-ed-backend )
 - Python
 - FastAPI
 - PostgreSQL
 - Prisma ORM
 
-# Contributors:
+## Contributors:
 Team name: idkbrowby
 - [Anand Krishna](https://github.com/anand2312)
 - [Gautham Krishna](https://github.com/Gautham-kj)
@@ -30,7 +34,7 @@ Team name: idkbrowby
 - [Noel Binoy](github.com/noelzak03)
 
 
-# Developing
+## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -41,7 +45,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 To create a production version of the app:
 
