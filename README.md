@@ -2,6 +2,7 @@
 
 Accessible and accelerated learning by projects.
 
+This repository houses the frontend of our project.
 # Introduction
 One of the goals of sustainable development is quality education. With our project, we aim to establish quality education in the software development domain. We intend to do that by taking the user step by step through a project. Each project is split into milestones, with each milestone building up on the concept of the previous milestone.
 
@@ -26,7 +27,7 @@ Team name: idkbrowby
 - [Anand Krishna](https://github.com/anand2312)
 - [Gautham Krishna](https://github.com/Gautham-kj)
 - [Vivek Ashokkumar](github.com/vivekashok1221)
-- [Noel Binoy][github.com/noelzak03]
+- [Noel Binoy](github.com/noelzak03)
 
 
 # Developing
